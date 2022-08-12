@@ -13,7 +13,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class threeNumbers
+public class ThreeNumbers
 {
     public static void main(String[] args)
     {
