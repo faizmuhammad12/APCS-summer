@@ -12,7 +12,7 @@ import java.lang.Math;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class distanceFormula
+public class DistanceFormula
 {
     public static void main(String[] args)
     {
