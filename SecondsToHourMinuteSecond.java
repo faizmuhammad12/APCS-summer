@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class secondsToHourMinuteSecond
+public class SecondsToHourMinuteSecond
 {
     public static void main(String[] args)
     {
