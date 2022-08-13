@@ -1,8 +1,10 @@
 /**
  * Faiz Muhammad
  * 13/8/22
+ * 
  * Seconds to Hour-Minute-Second
  * Converts a user-inputted value in seconds to a hours-minutes-seconds format
+ * 
  * Variable List:
  * initialSeconds - user-inputted value of seconds to be converted to hours-minutes-seconds
  * finalHours - the calculated hours from the user-inputted initialSeconds
