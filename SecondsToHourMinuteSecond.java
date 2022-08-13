@@ -1,6 +1,6 @@
 /**
  * Faiz Muhammad
- * 23/7/22
+ * 13/8/22
  * Seconds to Hour-Minute-Second
  * Converts a user-inputted value in seconds to a hours-minutes-seconds format
  * Variable List:
