@@ -1,6 +1,6 @@
 /**
  * Faiz Muhammad
- * 23/7/22
+ * 13/8/22
  * Three Numbers
  * Reads three numbers, storing them into respective variables, and prints their average
  * Variable List:
