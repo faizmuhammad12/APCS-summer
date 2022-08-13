@@ -1,6 +1,6 @@
 /**
  * Faiz Muhammad
- * 23/7/22
+ * 13/8/22
  * Distance Formula
  * Calculates the distance between two user-inputted points
  * Variable List:
