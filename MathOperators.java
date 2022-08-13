@@ -1,8 +1,10 @@
 /**
  * Faiz Muhammad
  * 13/8/22
+ * 
  * Math Operators
  * Takes the sum, difference, product, quotient, remainder, and power of two numbers
+ * 
  * Variable List:
  * a - first inputted number
  * b - second inputted number
