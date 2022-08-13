@@ -1,8 +1,10 @@
 /**
  * Faiz Muhammad
  * 13/8/22
+ * 
  * Fahrenheit to Celsius
  * Converts an inputted Fahrenheit temperature to the equivalent Celsius temperature
+ * 
  * Variable List:
  * CONVERSION_FACTOR - a constant value used in converting from Fahrenheit to Celsius (reciprocal may be used for C to F)
  * fahrenheitTemp - a user-inputted value, to be converted to celsius
