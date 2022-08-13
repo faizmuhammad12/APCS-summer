@@ -1,8 +1,10 @@
 /**
  * Faiz Muhammad
  * 13/8/22
+ * 
  * Distance Formula
  * Calculates the distance between two user-inputted points
+ * 
  * Variable List:
  * x1, y1, x2, y2 - respective values of coordinate points (x1, y1) and (x2, y2), which are user-inputted
  * distance - distance b/w (x1, y1) and (x2, y2)
