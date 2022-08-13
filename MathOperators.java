@@ -25,22 +25,36 @@ public class MathOperators
         DecimalFormat fmt = new DecimalFormat("0.000"); //formats to 3 decimal places
         Scanner scan = new Scanner(System.in);
         
-        System.out.print("Enter the first number: ");
+        System.out.print("Enter the first number (a): ");
         double a = scan.nextDouble();
         
-        System.out.print("Enter the second number: ");
+        System.out.print("Enter the second number (b): ");
         double b = scan.nextDouble();
         
         //returns corresponding value
         double sum = (a+b);
-        double difference = (a-b);
+        double difference_a = (a-b);
         double product = (a*b);
-        double quotient = (a/b);
-        double remainder = (a%b);
-        double power = Math.pow(a, b); //a^b
+        double quotient_a = (a/b);
+        double remainder_a = (a%b);
+        double power_a = Math.pow(a, b); //a^b
         
-        //2 outputs: prints sum, difference, product w/ 1st statement & quotient, remainder, power w/ 2nd statement
-        System.out.println("\nThe sum: " + fmt.format(sum) + "\nThe difference: " + fmt.format(difference) + "\nThe product: " + fmt.format(product));
-        System.out.println("\nThe quotient: " + fmt.format(quotient) + "\nThe remainder of the first divided by the second: " + fmt.format(remainder) + "\nRaising the first to the second: " + fmt.format(power));
+        double difference_b = (b-a);
+        double quotient_b = (b/a);
+        double remainder_b = (b%a);
+        double power_b = Math.pow(b, a); //b^a
+        
+        //first "block" of output statements are for the "_a" calculations (+sum and product of values), second "block" for "_b" calculations
+        System.out.println("\nThe sum (a+b): " + fmt.format(sum));
+        System.out.println("The difference (a-b): " + fmt.format(difference_a));
+        System.out.println("The product (a*b): " + fmt.format(product));
+        System.out.println("The quotient (a/b): " + fmt.format(quotient_a));
+        System.out.println("The remainder of the first divided by the second (a%b): " + fmt.format(remainder_a));
+        System.out.println("Raising the first to the second (a^b): " + fmt.format(power_a));
+        
+        System.out.println("\nThe difference (b-a): " + fmt.format(difference_b));
+        System.out.println("The quotient (b/a): " + fmt.format(quotient_b));
+        System.out.println("The remainder of the second divided by the first (b%a): " + fmt.format(remainder_b));
+        System.out.println("Raising the second to the first (b^a): " + fmt.format(power_b));
     }
 }
