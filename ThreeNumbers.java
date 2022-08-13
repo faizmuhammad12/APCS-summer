@@ -1,8 +1,10 @@
 /**
  * Faiz Muhammad
  * 13/8/22
+ * 
  * Three Numbers
  * Reads three numbers, storing them into respective variables, and prints their average
+ * 
  * Variable List:
  * a - first number inputted by user
  * b - second number inputted by user
