@@ -1,6 +1,6 @@
 /**
  * Faiz Muhammad
- * 23/7/22
+ * 13/8/22
  * Fahrenheit to Celsius
  * Converts an inputted Fahrenheit temperature to the equivalent Celsius temperature
  * Variable List:
